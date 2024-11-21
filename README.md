@@ -1,0 +1,2 @@
+# sycs
+SYCS PRACTICALS

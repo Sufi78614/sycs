@@ -109,7 +109,7 @@ text("20cm",width-width*0.281,height-height*0.0833);
 text("30cm",width-width*0.177,height-height*0.0833);
 text("40cm",width-width*0.0729,height-height*0.0833);
 textSize(40);
-text("Harsh Sharma", width-width*0.875, height-height*0.0277);
+text("Sufyan Ansari", width-width*0.875, height-height*0.0277);
 text("Angle: " + iAngle +" °", width-width*0.48, height-height*0.0277);
 text("", width-width*0.26, height-height*0.0277);
 if(iDistance<40) {

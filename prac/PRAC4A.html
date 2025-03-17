@@ -1,0 +1,55 @@
+<html>
+<head>
+<script>
+function factorial(n) {
+if (n === 0 || n === 1) {
+return 1;
+} else {
+return n * factorial(n - 1);
+}
+}
+function fibonacci(n) {
+if (n <= 1) {
+return n;
+} else {
+return fibonacci(n - 1) + fibonacci(n - 2);
+}
+}
+function isPrime(num) {
+if (num <= 1) return false;
+if (num <= 3) return true;
+if (num % 2 === 0 || num % 3 === 0) 
+return false;
+let i = 5;
+while (i * i <= num) {
+if (num % i === 0 || num % (i + 2) === 0) 
+return false;
+i += 6;
+
+}
+return true;
+}
+function evaluateExpression(expression) {
+return eval(expression); 
+}
+function reverseNumber(num) {
+let reversed = 0;
+while (num !== 0) {
+const digit = num % 10;
+reversed = reversed * 10 + digit;
+num = Math.floor(num / 10);
+}
+return reversed;
+}
+</script>
+</head>
+<body>
+<h3>YOUR NAMEo</h3>
+<script>
+document.write("Factorial of number is"+factorial(5)+'<br>');
+document.write("Fibonacci of a Number is"+fibonacci(6)+'<br>'); 
+document.write(evaluateExpression("2 + 3 * 4")+'<br>'); 
+document.write("The reverse of number is"+reverseNumber(12345)+'<br>'); 
+</script>
+</body>
+</html>

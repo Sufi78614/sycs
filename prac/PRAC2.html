@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>
+Practical 2
+</title>
+</head>
+<body>
+<h3>YOUR NAME</h3>
+<table>
+<tr>
+<td>Upper Limit:</td>
+<td><input id='n' type='number' placeholder='Enter value of n'/></td>
+</tr>
+<tr>
+<td>Sum:</td>
+<td id='result'></td>
+</tr>
+<tr>
+<td><button onclick='calculate();'>Add</button></td>
+</tr>
+</table>
+<script>
+var txt_n = document.getElementById("n");
+var txt_result = document.getElementById("result");
+function calculate(){
+var n = parseInt(txt_n.value);
+txt_result.innerHTML = (n*(n+1))/2;
+}
+</script>
+</body>
+</html>

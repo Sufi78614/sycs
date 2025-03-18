@@ -1,0 +1,23 @@
+<html>
+<head><title>AJAX BUTTON CLICK</title></head>
+<body>
+  <button id = "MyButton">Click ME</button>
+  <div id = "result"></div>
+  <script src = "script.js"></script>
+</body>
+Script.js
+ document.getElementByld('MyButton').addEventsListener('Click,function(){
+ const xhr = new XMLHttpRequest();
+ xhr.open('GET,Your Server endpoint');
+ xhr.onload = function(){
+ if(xhr.status == 200){
+   document.getElementByld('result')textcontent = xhr.responseText;
+ }else{
+   console.error('Request Failed.Return Status of'xhr.status);}
+ };
+ xhr.error = function(){
+ console.error('Network error');
+ document.get ElementByld('result').textcontent = 'Network error';
+ };
+ xhr.send();
+});

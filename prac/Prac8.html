@@ -1,20 +1,27 @@
+<!DOCTYPE html>
 <html>
-<head><title>JQuery Animations</title></head>
-<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery">
+<head>
+  <title>JQuery Animations</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
 <body>
-  <div id = "animated Div">This is animated div</div>
-  <button id = "FadeInButton">FadeIn</button>
-  <button id = "FadeOutButton">Fade Out</button>
-  <button id = "Slide Toggle Button">Slide Toggle</button> 
-<script>
-$(document).ready(function(){
-$("FadeInButton").click(function(){
-$(#animatedDiv")Fade In(1000);
-});
-$(#Slide Toggle Button").click(function(){
-|$('#animatedDiv").slide Toggle(1000);
-});
-});
-</script>
+  <div id="animatedDiv">This is animated div</div>
+  <button id="FadeInButton">FadeIn</button>
+  <button id="FadeOutButton">FadeOut</button>
+  <button id="SlideToggleButton">Slide Toggle</button>
+
+  <script>
+    $(document).ready(function(){
+      $("#FadeInButton").click(function(){
+        $("#animatedDiv").fadeIn(1000); // Corrected method name (fadeIn)
+      });
+      $("#FadeOutButton").click(function(){
+        $("#animatedDiv").fadeOut(1000); // Corrected method name (fadeOut)
+      });
+      $("#SlideToggleButton").click(function(){
+        $("#animatedDiv").slideToggle(1000); // Corrected method name and button id
+      });
+    });
+  </script>
 </body>
-<html>
+</html>

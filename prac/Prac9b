@@ -1,0 +1,16 @@
+<?php
+function reverseNum($num){
+{
+  $reversed = 0;
+  while($num>0)
+  {
+   $remainder = $num%10:
+   $reversed = $reversed*10+$remainder;
+   $num = floor($num/10);
+  }
+   return $reversed;
+  }
+  $number = 12345;
+  $reversedNumber = reversedNum($number);
+  echo"The reversed Number of $number is: $reversed Number";
+?>

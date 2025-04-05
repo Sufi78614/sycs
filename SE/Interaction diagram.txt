@@ -1,0 +1,13 @@
+Interaction diagram
+Interaction diagrams are used to describe same type of interaction among the different elements in the model.
+This interactive behaviour is represented in UML by two diagrams known as 
+1) sequence diagram 
+2) collaboration diagram
+					Sequence diagram
+Sequence diagram emphasise on time sequence of message
+
+					Purpose of interaction diagram
+To capture dynamic behaviour of a system. 
+To Describe the message flow in the system. 
+To Describe the structural organisation of the object. 
+To Describe interaction among objects.

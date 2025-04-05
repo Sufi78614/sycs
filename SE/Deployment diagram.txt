@@ -1,0 +1,7 @@
+Deployment diagram
+Deployment diagram are used to visualise the topology of the physical component [hardware] Of a system where the software component are deployed
+
+					Purpose of deployment diagram
+To model the hardware topology of a system. 
+To describe runtime processing notes. 
+To describe the hardware components used to deploy software components.

@@ -1,0 +1,9 @@
+Component diagrams
+Component diagrams are used to model physical aspects of a system
+These physical aspects are the elements like executables, libraries, files, documents, etc which resides in anode
+
+					Purpose of component diagram
+visualise the component of a system. 
+Model executable of an application. 
+Model system source code. 
+Describe the organisation and relationship of a component

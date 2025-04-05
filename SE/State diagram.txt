@@ -1,0 +1,8 @@
+State diagram
+State diagrams used to model dynamic nature of a system
+it describes different states of an object during its lifetime and those states are changed by event
+
+					Purpose of state diagrams
+To make dynamic aspect of a system 
+to identify events responsible for state changes 
+to describe different states of an object during its lifetime

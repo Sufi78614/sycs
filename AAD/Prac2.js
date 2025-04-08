@@ -1,3 +1,4 @@
+#implement event module of node.js
 var events = require('events');
 var eventEmitter = new events.EventEmitter();
 

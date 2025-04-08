@@ -1,0 +1,44 @@
+MongoDb cheat sheet
+Purpose (mongodb commands for databases)
+Commands
+View all databases
+Show dbs or show databases
+Create a new or switch to database
+Use database name(eg: use comment)
+To check u r in which database or view current database
+ db
+Delete database
+db.dropDatabase()
+
+
+
+
+Purpose (mongodb commands for collection)
+commands
+To show collections
+show collections 
+Create a collection named comments
+db.createCollection(‘comments’)
+Delete collection
+ db.<collections name>.drop()
+Mongodb commands for rows
+commands
+Insert one row
+db.contents.insert({'name':'harry', 'lang':'javascript','member_since':5})
+To insert multiple rows together
+Insert many takes array of operations
+Show all rows in acollection
+Db.collectionname.find()
+To show prettified row
+db.contents.find().pretty()
+Search in a mongodb database
+db.contents.find({lang:’python’})
+
+
+db.contents.find({lang:'python',name:'Neha'})
+How to apply limit on ur output
+db.contents.find().pretty().limit(2) it will show only two records
+Count the no of rows in the output
+db.contents.find().count()
+
+

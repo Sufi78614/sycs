@@ -1,3 +1,4 @@
+Q. regular expression to accept the following string an bnCN where n>0
 import re
 print("Mohammad Husain 5042")
 def is_valid_string(s):

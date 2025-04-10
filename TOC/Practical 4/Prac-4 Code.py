@@ -1,3 +1,4 @@
+Q.design a program for creating a machine which count number of 1s and 0s in a given string
 print("Name:Sufyan Ansari Roll:5008")
 def count_ones_and_zeros(binary_string):
     count_ones = 0

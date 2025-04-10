@@ -1,3 +1,4 @@
+Q. design a program for creating a machine which accept string having equal number of 1s and 0s
 print("Name:Sufyan Ansari Roll:5008")
 def has_equal_ones_and_zeros(s):
     

@@ -1,3 +1,4 @@
+Q. write a program for generating regular expression for regular grammar
 import re
 print("Sufyan Ansari 5008")
 def generate_regex(grammar):

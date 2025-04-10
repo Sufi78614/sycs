@@ -1,3 +1,5 @@
+Q.Wap for tokenization of given input
+
 print("Name:Sufyan Ansari Roll no:5008")
 import nltk
 nltk. download('punkt_tab')

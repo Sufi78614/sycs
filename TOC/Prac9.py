@@ -1,3 +1,4 @@
+Q.Wap to python for generating the regular expression for regular grammar
 print("Mohammad Husain 5042")
 class FSM:
     def __init__(self):

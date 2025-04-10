@@ -1,3 +1,5 @@
+Q.design a program for creating that machine accept three consecutive 1s
+
 def is_divisible_by_2(number_str):
     
     if not number_str.isdigit():

@@ -1,3 +1,4 @@
+Q. design a turing machine that accept the following language an b n c n where>0
 print("Mohammad Husain 5042")
 def turing_string(s):
     state = 0  
